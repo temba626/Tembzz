@@ -33,3 +33,11 @@ body {
     box-shadow: 0 10px 25px rgba(255, 255, 255, 0.05);
 }
 
+.toggle-checkbox:checked {
+    right: 0;
+    background-color: #3b82f6;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+    background-color: #3b82f6;
+}
